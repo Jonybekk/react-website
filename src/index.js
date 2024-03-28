@@ -3,11 +3,21 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {Counter} from './App'
+import { Form } from './App';
+import { Feedback } from './App';
+import { FeedbackForm } from './App';
+import TestCards from './camponents/test/test';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    {/* <Counter/> */}
+    {/* <Form /> */}
+    {/* <Feedback /> */}
+    {/* <FeedbackForm /> */}
+    <TestCards />
   </React.StrictMode>
 );
 
